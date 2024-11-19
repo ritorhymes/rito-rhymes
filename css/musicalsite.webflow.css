@@ -7719,7 +7719,7 @@ blockquote {
     grid-row-gap: 20vw;
     flex-flow: column;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
   }
 
   .media-coverage {
@@ -8094,6 +8094,7 @@ blockquote {
   .slide-image {
     max-width: 80%;
     margin-top: 40%;
+    position: relative;
   }
 
   .image-4-1 {
