@@ -1,0 +1,2 @@
+https://rito-rhymes.pages.dev/*
+  X-Robots-Tag: noindex
