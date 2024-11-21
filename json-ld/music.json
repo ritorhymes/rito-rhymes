@@ -64,6 +64,8 @@
   "@context": "https://schema.org",
   "@type": "MusicRecording",
   "name": "Altcoin Love",
+  "url": "https://www.youtube.com/watch?v=TCl35hwicwg",
+"@id": "https://www.youtube.com/watch?v=TCl35hwicwg",
   "byArtist": {
     "@type": "Person",
     "name": "Rito Rhymes",
@@ -115,6 +117,10 @@
       "https://instagram.com/ritorhymes",
       "https://ritovision.com/about",
       "https://hackernoon.com/about/ritorhymes",
+      "https://facebook.com/ritorhymes",
+"https://www.youtube.com/@ritorhymes",
+"https://open.spotify.com/artist/03iaQJsc1704Mbj25dHp4Q",
+"https://music.apple.com/us/artist/rito-rhymes/1633458672",
       "https://ritography.com/about"
     ]
   },
@@ -297,6 +303,10 @@
       "sameAs": [
         "https://instagram.com/ritorhymes",
         "https://ritovision.com/about",
+        "https://facebook.com/ritorhymes",
+"https://www.youtube.com/@ritorhymes",
+"https://open.spotify.com/artist/03iaQJsc1704Mbj25dHp4Q",
+"https://music.apple.com/us/artist/rito-rhymes/1633458672",
         "https://ritography.com/about"
       ]
     }
@@ -305,11 +315,15 @@
 </script>
 
 
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MusicRecording",
   "name": "Doge Doggy Coin",
+  "url": "https://www.youtube.com/watch?v=hfK9Sy_C75U",
+"@id": "https://www.youtube.com/watch?v=hfK9Sy_C75U",
   "byArtist": {
     "@type": "Person",
     "name": "Rito Rhymes",
@@ -500,11 +514,14 @@
 </script>
 
 
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MusicRecording",
   "name": "Encrypt Me",
+  "url": "https://www.youtube.com/watch?v=kVuOMoJw0JI",
+"@id": "https://www.youtube.com/watch?v=kVuOMoJw0JI",
   "byArtist": {
     "@type": "Person",
     "name": "Rito Rhymes",
@@ -534,6 +551,10 @@
     "@id": "https://ritorhymes.com/about",
     "sameAs": [
       "https://instagram.com/ritorhymes",
+      "https://facebook.com/ritorhymes",
+"https://www.youtube.com/@ritorhymes",
+"https://open.spotify.com/artist/03iaQJsc1704Mbj25dHp4Q",
+"https://music.apple.com/us/artist/rito-rhymes/1633458672",
       "https://ritovision.com/about",
       "https://ritography.com/about"
     ]
@@ -682,6 +703,10 @@
       "sameAs": [
         "https://instagram.com/ritorhymes",
         "https://ritovision.com/about",
+        "https://facebook.com/ritorhymes",
+"https://www.youtube.com/@ritorhymes",
+"https://open.spotify.com/artist/03iaQJsc1704Mbj25dHp4Q",
+"https://music.apple.com/us/artist/rito-rhymes/1633458672",
         "https://ritography.com/about"
       ]
     }
@@ -690,11 +715,15 @@
 </script>
 
 
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MusicRecording",
   "name": "Hodeler",
+  "url": "https://www.youtube.com/watch?v=DU1lonVgMBA",
+"@id": "https://www.youtube.com/watch?v=DU1lonVgMBA",
   "byArtist": {
     "@type": "Person",
     "name": "Rito Rhymes",
@@ -705,6 +734,10 @@
       "https://instagram.com/ritorhymes",
       "https://ritovision.com/about",
       "https://hackernoon.com/about/ritorhymes",
+      "https://facebook.com/ritorhymes",
+"https://www.youtube.com/@ritorhymes",
+"https://open.spotify.com/artist/03iaQJsc1704Mbj25dHp4Q",
+"https://music.apple.com/us/artist/rito-rhymes/1633458672",
       "https://ritography.com/about"
     ]
   },
@@ -840,11 +873,11 @@
     "@type": "VideoObject",
     "name": "Hodeler",
     "description": "Hodeler is a high-energy parody of Lil Wayne’s iconic A Milli, reimagined for the extravagant world of crypto whales. This punchline-packed track blends rapid-fire lyrics, hilarious crypto references, and a tribute to the eccentricity of crypto culture. From Bitcoin and Satoshi Nakamoto to celebrity crypto enthusiasts, Hodeler mirrors Lil Wayne’s random, unpredictable style while celebrating the swagger and absurdity of extreme crypto wealth.",
-    "thumbnailUrl": "https://img.youtube.com/vi/jUONISoCghk/maxresdefault.jpg",
+    "thumbnailUrl": "https://img.youtube.com/vi/DU1lonVgMBA/maxresdefault.jpg",
     "uploadDate": "2024-04-27T12:00:00-05:00",
-    "embedUrl": "https://www.youtube.com/embed/jUONISoCghk",
-    "url": "https://www.youtube.com/watch?v=jUONISoCghk",
-    "@id": "https://www.youtube.com/watch?v=jUONISoCghk",
+    "embedUrl": "https://www.youtube.com/embed/DU1lonVgMBA",
+    "url": "https://www.youtube.com/watch?v=DU1lonVgMBA",
+    "@id": "https://www.youtube.com/watch?v=DU1lonVgMBA",
     "creator": {
       "@type": "Person",
       "name": "Rito Rhymes",
@@ -867,6 +900,8 @@
   "@context": "https://schema.org",
   "@type": "MusicRecording",
   "name": "A Trillie",
+  "url": "https://www.youtube.com/watch?v=jUONISoCghk",
+  "@id": "https://www.youtube.com/watch?v=jUONISoCghk",
   "byArtist": {
     "@type": "Person",
     "name": "Rito Rhymes",
@@ -1037,6 +1072,8 @@
   "@context": "https://schema.org",
   "@type": "MusicRecording",
   "name": "Blockchain 4 a Gangsta",
+  "url": "https://www.youtube.com/watch?v=MNuIZDC9K4U",
+  "@id": "https://www.youtube.com/watch?v=MNuIZDC9K4U",
   "byArtist": {
     "@type": "Person",
     "name": "Rito Rhymes",
@@ -1251,13 +1288,19 @@
 }
 </script>
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MusicRecording",
+  "url": "https://music.apple.com/us/album/kekebrate-one-more-meme-single/1654151315",
+  "@id": "https://open.spotify.com/track/5bB4OqM2Ko964pdFWORc9t",
   "name": "One More Meme",
   "alternateName": "Doge Meme Anthem",
+  "sameAs": [
+    "https://www.shazam.com/song/1633470332/doge-meme-anthem",
+    "https://www.youtube.com/watch?v=WIrlzsOK9Rk",
+    "https://music.apple.com/us/song/doge-meme-anthem/1633470332"
+  ],
   "byArtist": {
     "@type": "Person",
     "name": "Rito Rhymes",
@@ -1287,6 +1330,10 @@
     "sameAs": [
       "https://instagram.com/ritorhymes",
       "https://ritovision.com/about",
+      "https://facebook.com/ritorhymes",
+      "https://www.youtube.com/@ritorhymes",
+      "https://open.spotify.com/artist/03iaQJsc1704Mbj25dHp4Q",
+      "https://music.apple.com/us/artist/rito-rhymes/1633458672",
       "https://ritography.com/about"
     ]
   },
@@ -1415,6 +1462,10 @@
       "sameAs": [
         "https://instagram.com/ritorhymes",
         "https://ritovision.com/about",
+        "https://facebook.com/ritorhymes",
+        "https://www.youtube.com/@ritorhymes",
+        "https://open.spotify.com/artist/03iaQJsc1704Mbj25dHp4Q",
+        "https://music.apple.com/us/artist/rito-rhymes/1633458672",
         "https://ritography.com/about"
       ]
     }
@@ -1427,11 +1478,18 @@
 {
   "@context": "https://schema.org",
   "@type": "MusicRecording",
+  "url": "https://music.apple.com/us/album/kekebrate-one-more-meme-single/1654151315",
+  "@id": "https://open.spotify.com/track/5bB4OqM2Ko964pdFWORc9t",
   "name": "KEKEBRATE",
   "alternateName": [
     "KEKEBRATE animated montage card",
     "KEKEBRATE (One More Meme)",
     "One More Meme (KEKEBRATE Remix)"
+  ],
+  "sameAs": [
+    "https://www.youtube.com/watch?v=DvXPQLGxV6s",
+    "https://www.shazam.com/song/1654151316/kekebrate-one-more-meme",
+    "https://open.spotify.com/track/5bB4OqM2Ko964pdFWORc9t"
   ],
   "byArtist": {
     "@type": "Person",
