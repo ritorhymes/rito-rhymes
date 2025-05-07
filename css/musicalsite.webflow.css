@@ -1,3 +1,195 @@
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url('../fonts/PlusJakartaSans-SemiBold.ttf') format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url('../fonts/PlusJakartaSans-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url('../fonts/PlusJakartaSans-Italic.ttf') format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url('../fonts/PlusJakartaSans-MediumItalic.ttf') format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url('../fonts/PlusJakartaSans-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url('../fonts/PlusJakartaSans-SemiBoldItalic.ttf') format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url('../fonts/PlusJakartaSans-BoldItalic.ttf') format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url('../fonts/PlusJakartaSans-Medium.ttf') format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Font;
+  src: url('../fonts/Futura-Bold-font.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Font;
+  src: url('../fonts/Futura-Bold-Italic-font.ttf') format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Font;
+  src: url('../fonts/Futura-Light-font.ttf') format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Font;
+  src: url('../fonts/Futura-Light-Italic-font.ttf') format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Bt;
+  src: url('../fonts/futura-medium-bt.ttf') format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Condensed Bt;
+  src: url('../fonts/futura-medium-condensed-bt.ttf') format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Font;
+  src: url('../fonts/Futura-Medium-Italic-font.ttf') format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Font;
+  src: url('../fonts/Futura-Heavy-font.ttf') format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Font;
+  src: url('../fonts/Futura-Heavy-Italic-font.ttf') format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Extra Font;
+  src: url('../fonts/Futura-Extra-Black-font.ttf') format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/Satoshi-MediumItalic.otf') format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/Satoshi-Bold.otf') format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/Satoshi-Medium.otf') format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/Satoshi-Regular.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/Satoshi-BoldItalic.otf') format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url('../fonts/Satoshi-Italic.otf') format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --color--white: white;
   --font--body: "Futura Bt", sans-serif;
@@ -1319,10 +1511,11 @@ blockquote {
 }
 
 .subtitle {
+  opacity: 0;
   color: var(--color--dark);
   text-align: center;
   align-self: center;
-  margin-top: 5%;
+  margin-top: 0%;
   margin-bottom: -5%;
   font-size: 40px;
   font-weight: 400;
@@ -3776,8 +3969,8 @@ blockquote {
   z-index: 5;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  background-color: #ed1f24;
-  border: 10px solid #eaff01;
+  background-color: #000;
+  border: 2px solid #ed1f24;
   border-radius: 40px;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -3848,9 +4041,10 @@ blockquote {
 .close-menu {
   z-index: 11;
   cursor: pointer;
-  background-color: red;
+  background-color: #f000;
   border-radius: 200px;
   flex-flow: column;
+  align-self: flex-end;
   width: 60px;
   height: 60px;
   transition: all .2s;
@@ -3903,7 +4097,7 @@ blockquote {
 
 .button {
   background-color: #3898ec00;
-  border: 4px solid #fff;
+  border: 2px solid #fff;
   border-radius: 40px;
   padding-left: 30px;
   padding-right: 30px;
@@ -3913,6 +4107,17 @@ blockquote {
 .button:hover {
   color: var(--color--dark);
   background-color: #fff;
+}
+
+.button.w--current {
+  border-width: 2px;
+  border-color: #ed1f24;
+}
+
+.button.w--current:hover {
+  color: var(--color--white);
+  background-color: #ed1f24;
+  border-color: #ed1f24;
 }
 
 .footer-info-links {
@@ -3961,7 +4166,7 @@ blockquote {
   color: var(--logo-red);
   text-align: center;
   background-color: #000;
-  border: 3px solid #000;
+  border: 0 solid #000;
   border-radius: 10px;
   width: 90px;
   padding: 10px;
@@ -3974,11 +4179,11 @@ blockquote {
 .link:hover {
   color: var(--color--white);
   background-color: red;
-  border-width: 3px;
+  border-width: 0;
   border-color: #eaff01;
   border-radius: 10px;
   padding: 10px;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .link-block-2 {
@@ -4023,11 +4228,19 @@ blockquote {
 }
 
 .div-block-5 {
+  cursor: pointer;
   background-color: #0000;
-  border: 2px solid #fff;
+  border: 0 solid #fff;
   border-radius: 10px;
   height: 74px;
+  transition: all .2s;
   display: flex;
+}
+
+.div-block-5:hover {
+  background-color: #000;
+  border-radius: 0;
+  transform: scale(.9);
 }
 
 .dropdown-list-2 {
@@ -4044,6 +4257,7 @@ blockquote {
   grid-row-gap: 30px;
   text-align: left;
   background-color: #000;
+  border: 1px solid #f61718;
   border-radius: 20px;
   flex-flow: column;
   width: 270px;
@@ -4067,15 +4281,23 @@ blockquote {
 }
 
 .div-block-6 {
+  cursor: pointer;
   background-color: #0000;
-  border: 2px solid #fff;
+  border: 0 solid #fff;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
   height: 74px;
   padding-top: 10px;
   padding-bottom: 10px;
+  transition: all .2s;
   display: flex;
+}
+
+.div-block-6:hover {
+  background-color: #000;
+  border-radius: 0;
+  transform: scale(.9);
 }
 
 .image-7 {
@@ -4096,11 +4318,12 @@ blockquote {
 }
 
 .partner-hover {
+  background-color: #0000;
   border-width: 0;
 }
 
 .partner-hover:hover {
-  background-color: #fff;
+  background-color: #0000;
   border-radius: 10px;
 }
 
@@ -4274,7 +4497,16 @@ blockquote {
   display: inline-flex;
 }
 
-.footer-socials, .header-socials-desktop {
+.footer-socials {
+  z-index: 2;
+  grid-column-gap: 30px;
+  margin-left: auto;
+  margin-right: 5%;
+  display: flex;
+  position: relative;
+}
+
+.header-socials-desktop {
   grid-column-gap: 30px;
   margin-left: auto;
   margin-right: 5%;
@@ -4294,12 +4526,14 @@ blockquote {
   width: 125px;
   height: 50px;
   text-decoration: none;
+  transition: all .2s;
   display: flex;
 }
 
 .mobile-menu-item:hover {
+  font-size: var(--type--subtitle);
   background-color: red;
-  border-color: #f2ff00;
+  border-color: red;
   text-decoration: none;
 }
 
@@ -4309,7 +4543,7 @@ blockquote {
 
 .mobile-menu-item.w--current:hover {
   background-color: red;
-  border-color: #f2ff00;
+  border-color: red;
   text-decoration: none;
 }
 
@@ -4317,7 +4551,7 @@ blockquote {
   background-color: #fff;
   border-radius: 30px;
   width: 50px;
-  height: 10px;
+  height: 7px;
   position: absolute;
   inset: 41% 0% 0% 7%;
   transform: rotate(39deg);
@@ -4328,7 +4562,7 @@ blockquote {
   background-color: #fff;
   border-radius: 30px;
   width: 50px;
-  height: 10px;
+  height: 7px;
   position: absolute;
   inset: auto 0% 43% 9%;
   transform: rotate(140deg);
@@ -4385,6 +4619,7 @@ blockquote {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
+  align-self: center;
   width: 50%;
   max-width: none;
   margin-bottom: 5%;
@@ -4403,19 +4638,20 @@ blockquote {
 
 .flipcard-front-copy {
   grid-row-gap: 20px;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   color: #fff;
   cursor: pointer;
   background-color: #ed1f24;
   border-radius: 30px;
   flex-flow: column;
+  justify-content: center;
   width: auto;
   min-width: auto;
   max-width: none;
   height: auto;
   max-height: 750px;
-  margin-top: 0;
+  margin-top: auto;
+  margin-bottom: auto;
   padding: 2% 5% 5%;
   display: flex;
   position: relative;
@@ -4444,7 +4680,6 @@ blockquote {
 .flipcard-back-copy {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   cursor: pointer;
   transform-style: preserve-3d;
@@ -4478,9 +4713,10 @@ blockquote {
   grid-column-gap: 46px;
   grid-row-gap: 46px;
   background-color: #ed1f24;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: auto;
   display: flex;
   position: static;
 }
@@ -4618,7 +4854,7 @@ blockquote {
   width: 400px;
   height: 900px;
   margin-bottom: 10%;
-  padding: 0% 0% 2%;
+  padding: 0% 0% 5%;
   display: flex;
   overflow: hidden;
 }
@@ -5552,18 +5788,27 @@ blockquote {
 
 .slide-image {
   border-radius: 30px;
+  max-width: 50%;
   margin-top: 10%;
   position: absolute;
   box-shadow: 12px 9px 12px 11px #0003;
 }
 
 .email-embed {
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
   margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 .div-block-41 {
-  margin-top: 2%;
-  margin-bottom: 5%;
+  flex-flow: column;
+  width: 100%;
+  margin: 2% auto 5%;
+  display: flex;
 }
 
 .image-4-1 {
@@ -5587,7 +5832,6 @@ blockquote {
 
 .flipcard-front-copy-copy {
   grid-row-gap: 20px;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   color: #fff;
   cursor: pointer;
@@ -5632,6 +5876,7 @@ blockquote {
 }
 
 .div-block-42 {
+  margin-top: 5%;
   display: flex;
 }
 
@@ -5834,6 +6079,7 @@ blockquote {
   cursor: pointer;
   width: 70px;
   height: 60px;
+  margin-right: 2rem;
   transition: all .4s;
 }
 
@@ -5864,6 +6110,87 @@ blockquote {
   background-color: #ed1f24;
   border-radius: 5px;
   transform: scale(1.2);
+}
+
+.section-2 {
+  border: 2px solid #000;
+  border-radius: 200px;
+  margin-top: 2.5%;
+  margin-bottom: 10%;
+  padding: 5%;
+  box-shadow: 6px 9px 5px #0003;
+}
+
+.paragraph-18 {
+  color: var(--color--white);
+  font-size: var(--type--body-big);
+  text-decoration: none;
+}
+
+.button-3 {
+  background-color: #ed1f24;
+  border: 2px solid #fff;
+  border-radius: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: all .2s;
+  box-shadow: 3px 5px 5px #0003;
+}
+
+.button-3:hover {
+  color: var(--color--dark);
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+}
+
+.button-4 {
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 4px 6px 5px #0003;
+}
+
+.button-4:hover {
+  background-color: #ed1f24;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+}
+
+.div-block-47 {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  margin-bottom: 2rem;
+}
+
+.image-35 {
+  z-index: 200;
+  opacity: 1;
+  border-radius: 10px;
+  max-width: 60%;
+  position: absolute;
+  inset: 20% auto auto 20%;
+  box-shadow: 8px 5px 10px 6px #0003;
+}
+
+.heading-17 {
+  color: var(--color--light-elevation);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+.heading-18 {
+  color: var(--logo-red);
 }
 
 @media screen and (max-width: 991px) {
@@ -6374,7 +6701,9 @@ blockquote {
 
   .image {
     width: 80%;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
   }
 
   .footer-info-links {
@@ -6553,8 +6882,34 @@ blockquote {
     align-self: center;
   }
 
+  .linklogo.w--current {
+    display: flex;
+  }
+
   .socialimage {
     object-fit: contain;
+  }
+
+  .section-2 {
+    width: 90%;
+  }
+
+  .paragraph-18 {
+    text-align: center;
+  }
+
+  .image-35 {
+    max-width: 70%;
+    left: 15%;
+  }
+
+  .heading-17 {
+    margin-bottom: 8%;
+    font-size: 50px;
+  }
+
+  .heading-18 {
+    font-size: 50px;
   }
 }
 
@@ -7087,6 +7442,10 @@ blockquote {
   .socialimage {
     width: auto;
     height: 30px;
+  }
+
+  .heading-18 {
+    font-size: 30px;
   }
 }
 
@@ -7622,10 +7981,11 @@ blockquote {
 
   .image {
     align-self: center;
-    width: 60vw;
+    width: 70vw;
     margin-top: 0%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
     position: relative;
     top: auto;
   }
@@ -7641,9 +8001,10 @@ blockquote {
   .paragraph {
     text-align: center;
     word-break: normal;
-    width: 25vw;
+    width: 30vw;
     min-width: auto;
     max-width: 100px;
+    margin-bottom: 1.5rem;
   }
 
   .icon {
@@ -7659,9 +8020,11 @@ blockquote {
   .close-menu {
     order: -1;
     align-self: center;
+    width: 40px;
+    height: 40px;
     margin-left: 0;
-    position: relative;
-    inset: auto;
+    position: absolute;
+    inset: 0% -10% auto auto;
   }
 
   .paragraph-2 {
@@ -7691,6 +8054,7 @@ blockquote {
   }
 
   .button {
+    border-color: #ed1f24;
     order: 3;
     align-self: auto;
     margin: 5% 25%;
@@ -7699,6 +8063,10 @@ blockquote {
     position: relative;
     top: auto;
     left: auto;
+  }
+
+  .button:hover {
+    border-color: #fff;
   }
 
   .footer-info-links {
@@ -7713,6 +8081,7 @@ blockquote {
     flex-flow: wrap;
     flex: 0 auto;
     justify-content: center;
+    align-self: center;
     align-items: center;
     width: auto;
     min-width: auto;
@@ -7788,6 +8157,7 @@ blockquote {
     width: auto;
     min-width: 21%;
     max-width: 144px;
+    margin-top: .5rem;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -7846,20 +8216,24 @@ blockquote {
   }
 
   .slider-3 {
-    width: 100%;
+    object-fit: fill;
+    width: 90%;
+    height: 400px;
     margin-top: 10%;
     margin-bottom: 10%;
+    overflow: visible;
   }
 
   .image-16 {
     object-fit: cover;
     width: 100%;
+    height: 100%;
   }
 
   .image-17 {
     object-fit: cover;
     width: 100%;
-    height: 600px;
+    height: 100%;
     overflow: clip;
   }
 
@@ -7870,7 +8244,11 @@ blockquote {
   .image-18 {
     object-fit: cover;
     width: 100%;
-    height: 600px;
+    height: 100%;
+  }
+
+  .mask-3 {
+    object-fit: fill;
   }
 
   .link-block-8 {
@@ -7902,7 +8280,7 @@ blockquote {
 
   .address {
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
   }
 
   .div-block-15 {
@@ -8271,6 +8649,10 @@ blockquote {
     position: relative;
   }
 
+  .div-block-41 {
+    margin-top: 10%;
+  }
+
   .image-4-1 {
     width: 30px;
   }
@@ -8393,6 +8775,53 @@ blockquote {
     height: 8vw;
     max-height: 25px;
   }
+
+  .section-2 {
+    border-radius: 50px;
+    width: 92%;
+  }
+
+  .paragraph-18 {
+    color: var(--color--white);
+    margin-top: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+
+  .button-3 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .button-4 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .div-block-47 {
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    margin-bottom: 5%;
+  }
+
+  .image-35 {
+    max-width: 85%;
+    left: 8%;
+  }
+
+  .heading-17 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 30px;
+  }
+
+  .heading-18 {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 }
 
 #w-node-ed978a7f-1d1c-eec9-4569-0e7ccb5743e5-a024a813, #w-node-_2ebd78aa-b93a-b93c-4ab1-d022ee5f1cb9-a024a814 {
@@ -8434,8 +8863,8 @@ blockquote {
 }
 
 #w-node-_08ea3a99-115a-bdbf-eb36-a618b63b50e7-b63b50d9 {
-  grid-area: 1 / 3 / 2 / 4;
-  place-self: center;
+  grid-area: 1 / 2 / 2 / 3;
+  place-self: center start;
 }
 
 #w-node-_08ea3a99-115a-bdbf-eb36-a618b63b50e9-b63b50d9 {
@@ -8444,13 +8873,13 @@ blockquote {
 }
 
 #w-node-b7f0ee29-9340-128f-0cee-ce7b0f8074c7-b63b50d9 {
-  grid-area: 1 / 1 / 3 / 3;
+  grid-area: 1 / 2 / 3 / 5;
   place-self: center;
 }
 
 #w-node-_2f074ea7-822d-fbad-1aab-439609411afb-b63b50d9 {
   grid-area: 1 / 5 / 2 / 6;
-  place-self: center;
+  place-self: center end;
 }
 
 #w-node-ec178bd0-4f08-f010-096a-3eca5c33f99d-338a3833 {
