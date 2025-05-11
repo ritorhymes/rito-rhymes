@@ -4592,6 +4592,7 @@ blockquote {
 }
 
 .partner-hover-copy {
+  background-color: #000;
   border-width: 0;
   width: 256px;
 }
@@ -6174,7 +6175,7 @@ blockquote {
 }
 
 .image-35 {
-  z-index: 200;
+  z-index: 5;
   opacity: 1;
   border-radius: 10px;
   max-width: 60%;
@@ -7283,6 +7284,10 @@ blockquote {
   }
 
   .footer-menu {
+    background-color: #000;
+    background-image: url('../images/ritothinker.jpg');
+    background-position: 50% 0;
+    background-size: auto;
     bottom: -100vh;
   }
 
@@ -7302,14 +7307,26 @@ blockquote {
     display: none;
   }
 
+  .div-block-5 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .altcoinlove {
     width: 100vw;
   }
 
+  .image-11 {
+    opacity: 0;
+    height: 100vh;
+    overflow: clip;
+  }
+
   .footer-menu-block {
     grid-column-gap: 20px;
-    grid-row-gap: 0px;
-    flex-flow: wrap;
+    grid-row-gap: 40px;
+    flex-flow: column;
     justify-content: center;
   }
 
@@ -7357,6 +7374,26 @@ blockquote {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     flex-flow: column;
+    align-self: auto;
+  }
+
+  .partner-hover-copy, .partner-hover-copy:hover {
+    background-color: #000;
+  }
+
+  .partner-hover-copy {
+    background-color: #000;
+    border-radius: 10px;
+  }
+
+  .partner-hover-copy:hover {
+    text-align: left;
+    background-color: #fff0;
+    align-self: auto;
+  }
+
+  .image-6-copy {
+    border-radius: 10px;
   }
 
   .container-image {
@@ -7447,6 +7484,32 @@ blockquote {
 
   .heading-18 {
     font-size: 30px;
+  }
+
+  .image-36 {
+    width: 246px;
+  }
+
+  .link-block-11 {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 0 10px;
+    transition: all .2s;
+  }
+
+  .link-block-11:hover {
+    transform: scale(.9);
+  }
+
+  .link-block-11-copy {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all .2s;
+  }
+
+  .link-block-11-copy:hover {
+    transform: scale(.9);
   }
 }
 
