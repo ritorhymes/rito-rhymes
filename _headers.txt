@@ -1,6 +1,0 @@
-https://rito-rhymes.pages.dev/*
-  X-Robots-Tag: noindex
-
-https://ritorhymes.com/*
-  Content-Security-Policy: default-src *; frame-ancestors 'self' https://ritography.com https://ritovision.com;
-  Referrer-Policy: unsafe-url
