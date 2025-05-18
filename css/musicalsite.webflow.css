@@ -4044,7 +4044,7 @@ blockquote {
   background-color: #f000;
   border-radius: 200px;
   flex-flow: column;
-  align-self: flex-end;
+  align-self: center;
   width: 60px;
   height: 60px;
   transition: all .2s;
@@ -6195,6 +6195,15 @@ blockquote {
   color: var(--logo-red);
 }
 
+.image-36 {
+  width: 200px;
+  max-width: none;
+}
+
+.image-37 {
+  max-width: 90%;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 72px;
@@ -6884,6 +6893,10 @@ blockquote {
     align-self: center;
   }
 
+  .div-block-42 {
+    flex-flow: column;
+  }
+
   .linklogo.w--current {
     display: flex;
   }
@@ -6929,6 +6942,16 @@ blockquote {
     padding-bottom: 100px;
   }
 
+  .section.dark.under-hero-studio {
+    display: block;
+  }
+
+  .section.hero-studio {
+    height: 200vw;
+    padding-top: 64px;
+    overflow: clip;
+  }
+
   .section.hero-contact {
     padding-top: 56px;
   }
@@ -6939,6 +6962,12 @@ blockquote {
 
   .text-style-h1 {
     font-size: 52px;
+  }
+
+  .subtitle {
+    margin-top: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .grid-colors {
@@ -7315,6 +7344,7 @@ blockquote {
 
   .altcoinlove {
     width: 100vw;
+    height: 1000px;
   }
 
   .image-11 {
@@ -7398,10 +7428,12 @@ blockquote {
 
   .container-image {
     align-self: center;
+    width: 90%;
   }
 
   .about {
     padding-bottom: 10%;
+    overflow: hidden;
   }
 
   .link-block-8, .link-block-8.w--current {
@@ -7418,25 +7450,67 @@ blockquote {
     font-size: 30px;
   }
 
+  .youtube-stop-embed, .heading-8 {
+    width: 100%;
+  }
+
   .playlistmenu {
     display: block;
+  }
+
+  .div-block-33 {
+    height: 900px;
+  }
+
+  .song-title {
+    align-self: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    padding-bottom: 0;
+  }
+
+  .short-description {
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  .tags {
+    align-self: center;
+    width: auto;
+    margin-bottom: 1rem;
+    margin-right: auto;
   }
 
   .image-23 {
     object-fit: contain;
     border-bottom-width: 0;
     border-radius: 30px;
+    width: auto;
     height: auto;
     margin-top: auto;
     margin-bottom: auto;
   }
 
+  .music-item {
+    flex-flow: column;
+    height: auto;
+  }
+
   .song-image {
+    align-self: center;
     display: flex;
+  }
+
+  .div-block-34 {
+    flex-flow: column;
   }
 
   .heading-9 {
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 38%;
   }
 
   .icon-copy {
@@ -7447,10 +7521,37 @@ blockquote {
 
   .encryptme, .blockchain4, .hodler, .dogeydoge, .trillie, .onemorememe {
     width: 100vw;
+    height: 1000px;
+  }
+
+  .link-block-10 {
+    flex-flow: column;
+    height: auto;
+  }
+
+  .text {
+    max-width: 100%;
   }
 
   .stick-wrapper {
     height: 500vw;
+  }
+
+  .image1 {
+    width: 500px;
+    max-width: 100%;
+  }
+
+  .image2, .image3 {
+    max-width: 100%;
+  }
+
+  .sharkchase, .sharkchill {
+    height: 400vw;
+  }
+
+  .slide-image {
+    margin-top: 20%;
   }
 
   .div-block-42, ._404, ._404.w--current {
@@ -7462,12 +7563,15 @@ blockquote {
   }
 
   .image-32 {
+    width: 50px;
+    height: 40px;
     margin-top: 5%;
+    margin-right: 0;
   }
 
   .image-33 {
-    width: 12vw;
-    height: 10vw;
+    width: 50px;
+    height: 40px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -7480,6 +7584,11 @@ blockquote {
   .socialimage {
     width: auto;
     height: 30px;
+  }
+
+  .paragraph-18 {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .heading-18 {
