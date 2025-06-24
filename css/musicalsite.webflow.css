@@ -6944,6 +6944,7 @@ blockquote {
 
   .section.dark.under-hero-studio {
     display: block;
+    overflow: clip;
   }
 
   .section.hero-studio {
