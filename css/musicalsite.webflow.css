@@ -6204,6 +6204,10 @@ blockquote {
   max-width: 90%;
 }
 
+.image-38 {
+  width: 200px;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 72px;
@@ -7621,6 +7625,11 @@ blockquote {
   .link-block-11-copy:hover {
     transform: scale(.9);
   }
+
+  .image-38 {
+    width: 246px;
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -8996,6 +9005,12 @@ blockquote {
     margin-left: 2.5%;
     margin-right: 2.5%;
   }
+
+  .image-38 {
+    width: 246px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 #w-node-ed978a7f-1d1c-eec9-4569-0e7ccb5743e5-a024a813, #w-node-_2ebd78aa-b93a-b93c-4ab1-d022ee5f1cb9-a024a814 {
@@ -9088,6 +9103,7 @@ blockquote {
 
   #w-node-_08ea3a99-115a-bdbf-eb36-a618b63b50e7-b63b50d9 {
     grid-area: 1 / 1 / 2 / 2;
+    justify-self: end;
   }
 
   #w-node-_08ea3a99-115a-bdbf-eb36-a618b63b50e9-b63b50d9 {
